@@ -13,8 +13,7 @@ ACCESS_KEY = 'xxxxxxxxxxxxxxxx'
 ACCESS_SECRET = 'xxxxxxxxxxxxxxxx'
 api = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET)
 
-print('シリアル通信開始')
-#シリアル通信
+#print('シリアル通信開始')
 ser = serial.Serial('/dev/ttyACM0', 9600)
 time.sleep(2)
 
