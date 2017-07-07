@@ -6,7 +6,7 @@ import time
 import os
 from twython import Twython
 
-print('twitterの認証情報を入力')
+#print('twitterの認証情報を入力')
 CONSUMER_KEY = 'xxxxxxxxxxxxxxxx'
 CONSUMER_SECRET = 'xxxxxxxxxxxxxxxx'
 ACCESS_KEY = 'xxxxxxxxxxxxxxxx'
