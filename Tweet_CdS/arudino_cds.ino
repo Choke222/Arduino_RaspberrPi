@@ -1,5 +1,5 @@
 int pin = 0; //センサーのピン番号
-int get_a0 = 0; //センサーデータ取得用
+int get_a0 = 0; //センサーデータ取得
 int flag = 0;
 int s=0;
 void setup(){
