@@ -9,7 +9,6 @@ void setup(){
 
 void loop()
 {
-
   get_a0 = analogRead(pin); // 照度センサーからデータを取得
   s = 0;
   Serial.println(s); // シリアルモニタに出力
