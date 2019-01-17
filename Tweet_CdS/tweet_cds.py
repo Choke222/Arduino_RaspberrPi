@@ -19,7 +19,6 @@ time.sleep(2)
 
 while 1:
 	data = ser.readline()#Arduinoからデータの読み込み
-
 	data2 = int(data)#int型に変換
 	print('部屋の照明監視中' + time.ctime() + ',' + '照明状況' + ',' + str(data))
 	#取得した照度情報をツイート
